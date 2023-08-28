@@ -45,15 +45,6 @@
 
 
     <div class="column has-text-centered">
-        <span class="link-block">
-            <a href="https://github.com/0nutation/SpeechTokenizer" target="_blank"
-            class="external-link button is-normal is-rounded is-dark">
-            <span class="icon">
-                <i class="fab fa-github"></i>
-            </span>
-            <span>Github</span>
-            </a>
-        </span>
 
         <span class="link-block">
             <a href="" target="_blank"
@@ -64,16 +55,41 @@
             <span>Paper</span>
             </a>
         </span>
-
-        <!-- <span class="link-block">
-            <a href="https://github.com/0nutation/SpeechTokenizer" target="_blank"
+        
+        <span class="link-block">
+            <a href="https://github.com/ZhangXInFD/SpeechTokenizer" target="_blank"
             class="external-link button is-normal is-rounded is-dark">
             <span class="icon">
-                <i class="fas fa-database"></i>
+                <i class="fab fa-github"></i>
             </span>
-            <span>Dataset</span>
+            <span>SpeechTokenizer</span>
             </a>
-        </span> -->
+        </span>
+
+
+        <span class="link-block">
+            <a href="https://github.com/0nutation/SLMTokBench" target="_blank"
+            class="external-link button is-normal is-rounded is-dark">
+            <span class="icon">
+                <i class="fab fa-github"></i>
+            </span>
+            <span>SLMTokBench</span>
+            </a>
+        </span>
+
+        
+
+        <span class="link-block">
+            <a href="https://github.com/0nutation/USLM" target="_blank"
+            class="external-link button is-normal is-rounded is-dark">
+            <span class="icon">
+                <i class="fab fa-github"></i>
+            </span>
+            <span>USLM</span>
+            </a>
+        </span>
+
+
 
     </div>
 </div>
@@ -108,47 +124,65 @@
 			<table class="table table-hover pt-2">
 			<thead>
 			<tr>
+            <th style="text-align: center">Tokenizer</th>
             <th style="text-align: center">Raw</th>
-			<th style="text-align: center">RVQ-1</th>
+            <th style="text-align: center">RVQ-1</th>
             <th style="text-align: center">RVQ-2:8</th>
             <th style="text-align: center">RVQ-8</th>
 			</tr>
 			</thead>
 			<tbody>
-            
-            <td style="text-align: center;vertical-align:middle;width: 800px"><audio controls="controls" style="width: 140px;"><source src="reconstruction/1/raw.flac" autoplay/>Your browser does not support the audio element.</audio></td>
-            <td style="text-align: center;vertical-align:middle;width: 800px"><audio controls="controls" style="width: 140px;"><source src="reconstruction/1/RVQ1.wav" autoplay/>Your browser does not support the audio element.</audio></td>
-            <td style="text-align: center;vertical-align:middle;width: 800px"><audio controls="controls" style="width: 140px;"><source src="reconstruction/1/RVQ2_8.wav" autoplay/>Your browser does not support the audio element.</audio></td>
-            <td style="text-align: center;vertical-align:middle;width: 800px"><audio controls="controls" style="width: 140px;"><source src="reconstruction/1/RVQ8.wav" autoplay/>Your browser does not support the audio element.</audio></td>
+
+            <td style="text-align: center;vertical-align:middle;width: 800px"><b>EnCodec</b></td>
+            <td style="text-align: center;vertical-align:middle;width: 800px"><audio controls="controls" style="width: 140px;"><source src="reconstruction/e/1/raw.wav" autoplay/>Your browser does not support the audio element.</audio></td>
+            <td style="text-align: center;vertical-align:middle;width: 800px"><audio controls="controls" style="width: 140px;"><source src="reconstruction/e/1/rvq_1.wav" autoplay/>Your browser does not support the audio element.</audio></td>
+            <td style="text-align: center;vertical-align:middle;width: 800px"><audio controls="controls" style="width: 140px;"><source src="reconstruction/e/1/rvq_2_8.wav" autoplay/>Your browser does not support the audio element.</audio></td>
+            <td style="text-align: center;vertical-align:middle;width: 800px"><audio controls="controls" style="width: 140px;"><source src="reconstruction/e/1/rvq_8.wav" autoplay/>Your browser does not support the audio element.</audio></td>
             </tr>
 
             <tr>
-            <td style="text-align: center;vertical-align:middle;width: 800px"><audio controls="controls" style="width: 140px;"><source src="reconstruction/2/raw.flac" autoplay/>Your browser does not support the audio element.</audio></td>
-            <td style="text-align: center;vertical-align:middle;width: 800px"><audio controls="controls" style="width: 140px;"><source src="reconstruction/2/RVQ1.wav" autoplay/>Your browser does not support the audio element.</audio></td>
-            <td style="text-align: center;vertical-align:middle;width: 800px"><audio controls="controls" style="width: 140px;"><source src="reconstruction/2/RVQ2_8.wav" autoplay/>Your browser does not support the audio element.</audio></td>
-            <td style="text-align: center;vertical-align:middle;width: 800px"><audio controls="controls" style="width: 140px;"><source src="reconstruction/2/RVQ8.wav" autoplay/>Your browser does not support the audio element.</audio></td>
+            <td style="text-align: center;vertical-align:middle;width: 800px"><b>SpeechTokenizer</b></td>
+            <td style="text-align: center;vertical-align:middle;width: 800px"><audio controls="controls" style="width: 140px;"><source src="reconstruction/s/1/raw.wav" autoplay/>Your browser does not support the audio element.</audio></td>
+            <td style="text-align: center;vertical-align:middle;width: 800px"><audio controls="controls" style="width: 140px;"><source src="reconstruction/s/1/rvq_1.wav" autoplay/>Your browser does not support the audio element.</audio></td>
+            <td style="text-align: center;vertical-align:middle;width: 800px"><audio controls="controls" style="width: 140px;"><source src="reconstruction/s/1/rvq_2_8.wav" autoplay/>Your browser does not support the audio element.</audio></td>
+            <td style="text-align: center;vertical-align:middle;width: 800px"><audio controls="controls" style="width: 140px;"><source src="reconstruction/s/1/rvq_8.wav" autoplay/>Your browser does not support the audio element.</audio></td>
             </tr>
 
             <tr>
-            <td style="text-align: center;vertical-align:middle;width: 800px"><audio controls="controls" style="width: 140px;"><source src="reconstruction/3/raw.flac" autoplay/>Your browser does not support the audio element.</audio></td>
-            <td style="text-align: center;vertical-align:middle;width: 800px"><audio controls="controls" style="width: 140px;"><source src="reconstruction/3/RVQ1.wav" autoplay/>Your browser does not support the audio element.</audio></td>
-            <td style="text-align: center;vertical-align:middle;width: 800px"><audio controls="controls" style="width: 140px;"><source src="reconstruction/3/RVQ2_8.wav" autoplay/>Your browser does not support the audio element.</audio></td>
-            <td style="text-align: center;vertical-align:middle;width: 800px"><audio controls="controls" style="width: 140px;"><source src="reconstruction/3/RVQ8.wav" autoplay/>Your browser does not support the audio element.</audio></td>
+            <td style="text-align: center;vertical-align:middle;width: 800px"><b>EnCodec</b></td>
+            <td style="text-align: center;vertical-align:middle;width: 800px"><audio controls="controls" style="width: 140px;"><source src="reconstruction/e/2/raw.wav" autoplay/>Your browser does not support the audio element.</audio></td>
+            <td style="text-align: center;vertical-align:middle;width: 800px"><audio controls="controls" style="width: 140px;"><source src="reconstruction/e/2/rvq_1.wav" autoplay/>Your browser does not support the audio element.</audio></td>
+            <td style="text-align: center;vertical-align:middle;width: 800px"><audio controls="controls" style="width: 140px;"><source src="reconstruction/e/2/rvq_2_8.wav" autoplay/>Your browser does not support the audio element.</audio></td>
+            <td style="text-align: center;vertical-align:middle;width: 800px"><audio controls="controls" style="width: 140px;"><source src="reconstruction/e/2/rvq_8.wav" autoplay/>Your browser does not support the audio element.</audio></td>
             </tr>
 
             <tr>
-            <td style="text-align: center;vertical-align:middle;width: 800px"><audio controls="controls" style="width: 140px;"><source src="reconstruction/4/raw.flac" autoplay/>Your browser does not support the audio element.</audio></td>
-            <td style="text-align: center;vertical-align:middle;width: 800px"><audio controls="controls" style="width: 140px;"><source src="reconstruction/4/RVQ1.wav" autoplay/>Your browser does not support the audio element.</audio></td>
-            <td style="text-align: center;vertical-align:middle;width: 800px"><audio controls="controls" style="width: 140px;"><source src="reconstruction/4/RVQ2_8.wav" autoplay/>Your browser does not support the audio element.</audio></td>
-            <td style="text-align: center;vertical-align:middle;width: 800px"><audio controls="controls" style="width: 140px;"><source src="reconstruction/4/RVQ8.wav" autoplay/>Your browser does not support the audio element.</audio></td>
+            <td style="text-align: center;vertical-align:middle;width: 800px"><b>SpeechTokenizer</b></td>
+            <td style="text-align: center;vertical-align:middle;width: 800px"><audio controls="controls" style="width: 140px;"><source src="reconstruction/s/2/raw.wav" autoplay/>Your browser does not support the audio element.</audio></td>
+            <td style="text-align: center;vertical-align:middle;width: 800px"><audio controls="controls" style="width: 140px;"><source src="reconstruction/s/2/rvq_1.wav" autoplay/>Your browser does not support the audio element.</audio></td>
+            <td style="text-align: center;vertical-align:middle;width: 800px"><audio controls="controls" style="width: 140px;"><source src="reconstruction/s/2/rvq_2_8.wav" autoplay/>Your browser does not support the audio element.</audio></td>
+            <td style="text-align: center;vertical-align:middle;width: 800px"><audio controls="controls" style="width: 140px;"><source src="reconstruction/s/2/rvq_8.wav" autoplay/>Your browser does not support the audio element.</audio></td>
             </tr>
 
+
             <tr>
-            <td style="text-align: center;vertical-align:middle;width: 800px"><audio controls="controls" style="width: 140px;"><source src="reconstruction/5/raw.flac" autoplay/>Your browser does not support the audio element.</audio></td>
-            <td style="text-align: center;vertical-align:middle;width: 800px"><audio controls="controls" style="width: 140px;"><source src="reconstruction/5/RVQ1.wav" autoplay/>Your browser does not support the audio element.</audio></td>
-            <td style="text-align: center;vertical-align:middle;width: 800px"><audio controls="controls" style="width: 140px;"><source src="reconstruction/5/RVQ2_8.wav" autoplay/>Your browser does not support the audio element.</audio></td>
-            <td style="text-align: center;vertical-align:middle;width: 800px"><audio controls="controls" style="width: 140px;"><source src="reconstruction/5/RVQ8.wav" autoplay/>Your browser does not support the audio element.</audio></td>
+            <td style="text-align: center;vertical-align:middle;width: 800px"><b>EnCodec</b></td>
+            <td style="text-align: center;vertical-align:middle;width: 800px"><audio controls="controls" style="width: 140px;"><source src="reconstruction/e/3/raw.wav" autoplay/>Your browser does not support the audio element.</audio></td>
+            <td style="text-align: center;vertical-align:middle;width: 800px"><audio controls="controls" style="width: 140px;"><source src="reconstruction/e/3/rvq_1.wav" autoplay/>Your browser does not support the audio element.</audio></td>
+            <td style="text-align: center;vertical-align:middle;width: 800px"><audio controls="controls" style="width: 140px;"><source src="reconstruction/e/3/rvq_2_8.wav" autoplay/>Your browser does not support the audio element.</audio></td>
+            <td style="text-align: center;vertical-align:middle;width: 800px"><audio controls="controls" style="width: 140px;"><source src="reconstruction/e/3/rvq_8.wav" autoplay/>Your browser does not support the audio element.</audio></td>
             </tr>
+
+
+            <tr>
+            <td style="text-align: center;vertical-align:middle;width: 800px"><b>SpeechTokenizer</b></td>
+            <td style="text-align: center;vertical-align:middle;width: 800px"><audio controls="controls" style="width: 140px;"><source src="reconstruction/s/3/raw.wav" autoplay/>Your browser does not support the audio element.</audio></td>
+            <td style="text-align: center;vertical-align:middle;width: 800px"><audio controls="controls" style="width: 140px;"><source src="reconstruction/s/3/rvq_1.wav" autoplay/>Your browser does not support the audio element.</audio></td>
+            <td style="text-align: center;vertical-align:middle;width: 800px"><audio controls="controls" style="width: 140px;"><source src="reconstruction/s/3/rvq_2_8.wav" autoplay/>Your browser does not support the audio element.</audio></td>
+            <td style="text-align: center;vertical-align:middle;width: 800px"><audio controls="controls" style="width: 140px;"><source src="reconstruction/s/3/rvq_8.wav" autoplay/>Your browser does not support the audio element.</audio></td>
+            </tr>
+
+           
             
 
             </tbody>
@@ -225,24 +259,35 @@
 			<tr>
             <th style="text-align: center">Source Speech</th>
 			<th style="text-align: center">Reference Speech</th>
-            <th style="text-align: center">GroundTruth</th>
             <th style="text-align: center">Converted Speech</th>
 			</tr>
 			</thead>
 			<tbody>
             
-            <td style="text-align: center;vertical-align:middle;width: 800px"><audio controls="controls" style="width: 140px;"><source src="oneshot_vc/1/source.flac" autoplay/>Your browser does not support the audio element.</audio></td>
-            <td style="text-align: center;vertical-align:middle;width: 800px"><audio controls="controls" style="width: 140px;"><source src="oneshot_vc/1/prompt.flac" autoplay/>Your browser does not support the audio element.</audio></td>
-            <td style="text-align: center;vertical-align:middle;width: 800px"><audio controls="controls" style="width: 140px;"><source src="oneshot_vc/1/groundtruth.flac" autoplay/>Your browser does not support the audio element.</audio></td>
+            <td style="text-align: center;vertical-align:middle;width: 800px"><audio controls="controls" style="width: 140px;"><source src="oneshot_vc/1/source.wav" autoplay/>Your browser does not support the audio element.</audio></td>
+            <td style="text-align: center;vertical-align:middle;width: 800px"><audio controls="controls" style="width: 140px;"><source src="oneshot_vc/1/prompt.wav" autoplay/>Your browser does not support the audio element.</audio></td>
             <td style="text-align: center;vertical-align:middle;width: 800px"><audio controls="controls" style="width: 140px;"><source src="oneshot_vc/1/generated.wav" autoplay/>Your browser does not support the audio element.</audio></td>
             </tr>
+            
 
-            <!-- <tr>
-            <td style="text-align: center;vertical-align:middle;width: 800px"><audio controls="controls" style="width: 140px;"><source src="oneshot_vc/1/source.flac" autoplay/>Your browser does not support the audio element.</audio></td>
-            <td style="text-align: center;vertical-align:middle;width: 800px"><audio controls="controls" style="width: 140px;"><source src="oneshot_vc/1/prompt.flac" autoplay/>Your browser does not support the audio element.</audio></td>
-            <td style="text-align: center;vertical-align:middle;width: 800px"><audio controls="controls" style="width: 140px;"><source src="oneshot_vc/1/groundtruth.flac" autoplay/>Your browser does not support the audio element.</audio></td>
-            <td style="text-align: center;vertical-align:middle;width: 800px"><audio controls="controls" style="width: 140px;"><source src="oneshot_vc/1/generated.wav" autoplay/>Your browser does not support the audio element.</audio></td>
-            </tr> -->
+            <tr>
+            <td style="text-align: center;vertical-align:middle;width: 800px"><audio controls="controls" style="width: 140px;"><source src="oneshot_vc/2/source.wav" autoplay/>Your browser does not support the audio element.</audio></td>
+            <td style="text-align: center;vertical-align:middle;width: 800px"><audio controls="controls" style="width: 140px;"><source src="oneshot_vc/2/prompt.wav" autoplay/>Your browser does not support the audio element.</audio></td>
+            <td style="text-align: center;vertical-align:middle;width: 800px"><audio controls="controls" style="width: 140px;"><source src="oneshot_vc/2/generated.wav" autoplay/>Your browser does not support the audio element.</audio></td>
+            </tr>
+
+            <tr>
+            <td style="text-align: center;vertical-align:middle;width: 800px"><audio controls="controls" style="width: 140px;"><source src="oneshot_vc/3/source.wav" autoplay/>Your browser does not support the audio element.</audio></td>
+            <td style="text-align: center;vertical-align:middle;width: 800px"><audio controls="controls" style="width: 140px;"><source src="oneshot_vc/3/prompt.wav" autoplay/>Your browser does not support the audio element.</audio></td>
+            <td style="text-align: center;vertical-align:middle;width: 800px"><audio controls="controls" style="width: 140px;"><source src="oneshot_vc/3/generated.wav" autoplay/>Your browser does not support the audio element.</audio></td>
+            </tr>
+            
+            <tr>
+            <td style="text-align: center;vertical-align:middle;width: 800px"><audio controls="controls" style="width: 140px;"><source src="oneshot_vc/4/source.wav" autoplay/>Your browser does not support the audio element.</audio></td>
+            <td style="text-align: center;vertical-align:middle;width: 800px"><audio controls="controls" style="width: 140px;"><source src="oneshot_vc/4/prompt.wav" autoplay/>Your browser does not support the audio element.</audio></td>
+            <td style="text-align: center;vertical-align:middle;width: 800px"><audio controls="controls" style="width: 140px;"><source src="oneshot_vc/4/generated.wav" autoplay/>Your browser does not support the audio element.</audio></td>
+            </tr>
+
             
 
             </tbody>
@@ -265,28 +310,28 @@
 			</tr>
 			</thead>
 			<tbody>
-            <td style="text-align: center;vertical-align:middle;width: 800px">German</td>
+            <td style="text-align: center;vertical-align:middle;width: 800px"><b>German</b></td>
             <td style="text-align: center;vertical-align:middle;width: 800px"><audio controls="controls" style="width: 140px;"><source src="unseen/de1/raw.flac" autoplay/>Your browser does not support the audio element.</audio></td>
             <td style="text-align: center;vertical-align:middle;width: 800px"><audio controls="controls" style="width: 140px;"><source src="unseen/de1/RVQ_1.wav" autoplay/>Your browser does not support the audio element.</audio></td>
             <td style="text-align: center;vertical-align:middle;width: 800px"><audio controls="controls" style="width: 140px;"><source src="unseen/de1/RVQ_8.wav" autoplay/>Your browser does not support the audio element.</audio></td>
             </tr>
 
             <tr>
-            <td style="text-align: center;vertical-align:middle;width: 800px">German</td>
+            <td style="text-align: center;vertical-align:middle;width: 800px"><b>German</b></td>
             <td style="text-align: center;vertical-align:middle;width: 800px"><audio controls="controls" style="width: 140px;"><source src="unseen/de1/raw.flac" autoplay/>Your browser does not support the audio element.</audio></td>
             <td style="text-align: center;vertical-align:middle;width: 800px"><audio controls="controls" style="width: 140px;"><source src="unseen/de2/RVQ_1.wav" autoplay/>Your browser does not support the audio element.</audio></td>
             <td style="text-align: center;vertical-align:middle;width: 800px"><audio controls="controls" style="width: 140px;"><source src="unseen/de2/RVQ_8.wav" autoplay/>Your browser does not support the audio element.</audio></td>
             </tr>
 
             <tr>
-            <td style="text-align: center;vertical-align:middle;width: 800px">Chinese</td>
+            <td style="text-align: center;vertical-align:middle;width: 800px"><b>Chinese</b></td>
             <td style="text-align: center;vertical-align:middle;width: 800px"><audio controls="controls" style="width: 140px;"><source src="unseen/zh1/raw.wav" autoplay/>Your browser does not support the audio element.</audio></td>
             <td style="text-align: center;vertical-align:middle;width: 800px"><audio controls="controls" style="width: 140px;"><source src="unseen/zh1/RVQ1.wav" autoplay/>Your browser does not support the audio element.</audio></td>
             <td style="text-align: center;vertical-align:middle;width: 800px"><audio controls="controls" style="width: 140px;"><source src="unseen/zh1/RVQ8.wav" autoplay/>Your browser does not support the audio element.</audio></td>
             </tr>
 
             <tr>
-            <td style="text-align: center;vertical-align:middle;width: 800px">Chinese</td>
+            <td style="text-align: center;vertical-align:middle;width: 800px"><b>Chinese</b></td>
             <td style="text-align: center;vertical-align:middle;width: 800px"><audio controls="controls" style="width: 140px;"><source src="unseen/zh1/raw.wav" autoplay/>Your browser does not support the audio element.</audio></td>
             <td style="text-align: center;vertical-align:middle;width: 800px"><audio controls="controls" style="width: 140px;"><source src="unseen/zh2/RVQ1.wav" autoplay/>Your browser does not support the audio element.</audio></td>
             <td style="text-align: center;vertical-align:middle;width: 800px"><audio controls="controls" style="width: 140px;"><source src="unseen/zh2/RVQ8.wav" autoplay/>Your browser does not support the audio element.</audio></td>
